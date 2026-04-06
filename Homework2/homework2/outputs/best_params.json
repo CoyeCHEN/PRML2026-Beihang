@@ -1,0 +1,30 @@
+{
+  "Decision Tree": {
+    "criterion": "entropy",
+    "max_depth": null,
+    "min_samples_leaf": 1
+  },
+  "AdaBoost + Decision Tree": {
+    "estimator__max_depth": 4,
+    "learning_rate": 0.5,
+    "n_estimators": 300
+  },
+  "SVM (Linear)": {
+    "svc__C": 2
+  },
+  "SVM (Polynomial)": {
+    "svc__C": 0.1,
+    "svc__coef0": 1.0,
+    "svc__degree": 3,
+    "svc__gamma": 1.0
+  },
+  "SVM (RBF)": {
+    "svc__C": 50,
+    "svc__gamma": 0.1
+  },
+  "SVM (Sigmoid)": {
+    "svc__C": 10,
+    "svc__coef0": -1.0,
+    "svc__gamma": 0.1
+  }
+}

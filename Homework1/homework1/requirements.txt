@@ -1,0 +1,4 @@
+numpy
+matplotlib
+reportlab
+python-docx

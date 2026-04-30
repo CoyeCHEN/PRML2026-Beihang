@@ -1,0 +1,24 @@
+{
+  "best_window_by_lstm_rmse": 12,
+  "best_model_by_rmse": "HistGradientBoosting",
+  "best_model_metrics": {
+    "MAE_scaled": 0.013793693729396497,
+    "RMSE_scaled": 0.02493058361362988,
+    "R2_scaled": 0.9370957557188377,
+    "MAE_original": 13.710931585384463,
+    "RMSE_original": 24.781000104948028,
+    "R2_original": 0.9370957557243905,
+    "model": "HistGradientBoosting",
+    "window": 12.0
+  },
+  "residual_lstm_metrics_at_best_window": {
+    "MAE_scaled": 0.014120115898549557,
+    "RMSE_scaled": 0.026557101549605337,
+    "R2_scaled": 0.9286200404167175,
+    "MAE_original": 14.035395622253418,
+    "RMSE_original": 26.39775889738914,
+    "R2_original": 0.9286200404167175
+  },
+  "figures_count": 16,
+  "output_dir": "/mnt/data/pm25_experiment_results"
+}

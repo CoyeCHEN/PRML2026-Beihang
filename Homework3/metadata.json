@@ -1,0 +1,39 @@
+{
+  "train_rows": 43800,
+  "test_rows": 346,
+  "train_time_range": [
+    "2010-01-02 00:00:00",
+    "2014-12-31 23:00:00"
+  ],
+  "test_time_range_inferred": [
+    "2015-01-01 00:00:00",
+    "2015-01-15 09:00:00"
+  ],
+  "feature_columns": [
+    "pollution",
+    "dew",
+    "temp",
+    "press",
+    "wnd_spd",
+    "snow",
+    "rain",
+    "is_snow",
+    "is_rain",
+    "wnd_dir_NE",
+    "wnd_dir_NW",
+    "wnd_dir_SE",
+    "wnd_dir_cv",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "wind_categories": [
+    "NE",
+    "NW",
+    "SE",
+    "cv"
+  ],
+  "pollution_min": 0.0,
+  "pollution_max": 994.0
+}
